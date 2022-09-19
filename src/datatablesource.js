@@ -43,7 +43,7 @@ export const userColumns = [
     {
       id: 1,
       username: "Snow",
-      img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      img: "https://png.pngtree.com/png-clipart/20201210/ourlarge/pngtree-little-mouse-jumping-clipart-png-image_2537436.jpg",
       status: "active",
       email: "1snow@gmail.com",
       age: 35,
@@ -59,7 +59,7 @@ export const userColumns = [
     {
       id: 3,
       username: "Lannister",
-      img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      img: "https://www.treehugger.com/thmb/hWPbzvt8r0cNpoASw-1ih_jU6H4=/2833x2833/smart/filters:no_upscale()/proboscis-monkey-or-nasalis-larvatus-1138954378-3d85f3132d1b43fea7e4a98288b55fca.jpg",
       email: "3snow@gmail.com",
       status: "pending",
       age: 45,
@@ -67,7 +67,7 @@ export const userColumns = [
     {
       id: 4,
       username: "Stark",
-      img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      img: "https://a-z-animals.com/media/tiger_laying_hero_background.jpg",
       email: "4snow@gmail.com",
       status: "active",
       age: 16,
@@ -75,7 +75,7 @@ export const userColumns = [
     {
       id: 5,
       username: "Targaryen",
-      img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      img: "https://media.wired.com/photos/593261cab8eb31692072f129/master/pass/85120553.jpg",
       email: "5snow@gmail.com",
       status: "passive",
       age: 22,
@@ -83,7 +83,7 @@ export const userColumns = [
     {
       id: 6,
       username: "Melisandre",
-      img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      img: "https://s28151.pcdn.co/wp-content/uploads/sites/2/2022/03/Coyote-animal-sentience-research.jpg",
       email: "6snow@gmail.com",
       status: "active",
       age: 15,
@@ -91,7 +91,7 @@ export const userColumns = [
     {
       id: 7,
       username: "Clifford",
-      img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKSaO7sM3IeZAY02H_QS7U33uZnI600Af4UA&usqp=CAU",
       email: "7snow@gmail.com",
       status: "passive",
       age: 44,
