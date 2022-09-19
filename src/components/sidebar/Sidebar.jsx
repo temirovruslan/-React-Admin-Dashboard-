@@ -30,10 +30,12 @@ const Sidebar = () => {
 			<div className="center">
 				<ul className="center-list">
 					<p className="title">MAIN</p>
+					<Link to="/">
 					<li>
 						<DashboardIcon className="sidebar-icon" />
 						<span className="sidebar-text">Dashboard</span>
 					</li>
+					</Link>
 					<p className="title">LIST</p>
 
 					<Link to="/users">
