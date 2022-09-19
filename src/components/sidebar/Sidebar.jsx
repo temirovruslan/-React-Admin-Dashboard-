@@ -13,9 +13,11 @@ import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import InsertEmoticonOutlinedIcon from "@mui/icons-material/InsertEmoticonOutlined";
 import NotificationsActiveOutlinedIcon from "@mui/icons-material/NotificationsActiveOutlined";
 import LocalShippingOutlinedIcon from "@mui/icons-material/LocalShippingOutlined";
-// import { Link } from "react-router-dom";
+import { DarkModeContext } from "../../context/darkModeContext";
+import { useContext } from "react";
 
 const Sidebar = () => {
+	const { dispatch } = useContext(DarkModeContext);
 	return (
 		<div className="sidebar">
 			<div className="top">
@@ -88,8 +90,8 @@ const Sidebar = () => {
 				</ul>
 			</div>
 			<div className="bottom">
-				<div className="color-option"></div>
-				<div className="color-option"></div>
+				<div className="color-option"  onClick={() => dispatch({ type: "LIGHT" })}></div>
+				<div className="color-option" onClick={() => dispatch({ type: "DARK" })}></div>
 			</div>
 		</div>
 	);

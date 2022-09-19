@@ -7,6 +7,7 @@ import Chart from "../../components/chart/Chart";
 // import Table from '../../components/table/List'
 import Featured from "../../components/featured/Featured";
 import List from "../../components/table/List";
+// import '../../style/dark.scss'
 
 const Home = () => {
 	return (
