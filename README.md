@@ -1,1 +1,1 @@
-![My Remote Image]('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAksmI1DaWkyxQww66T2DhLycRCu2Mu-qa5EPwX-ojuae31p41cn9LTzQ-gG3UknMdfRk&usqp=CAU')
+[![MasterHead](https://user-images.githubusercontent.com/98250795/186842060-81ca56bd-e856-48d0-aff4-87eb7e3b5fb7.png)](https://rishavchanda.io)
