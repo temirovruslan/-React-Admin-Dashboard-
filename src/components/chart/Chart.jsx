@@ -21,7 +21,7 @@ const Chart = ({ aspect, title }) => {
   return (
     <div className="chart">
       <div className="title">{title} Last 6 mounth</div>
-      <ResponsiveContainer width='100%' aspect={2/1}>
+      <ResponsiveContainer width='100%' height='363px' aspect={2.3/1}>
         <AreaChart
           width={730}
           height={250}
@@ -45,6 +45,7 @@ const Chart = ({ aspect, title }) => {
             fill="url(#total)"
           />
         </AreaChart>
+        
       </ResponsiveContainer>
     </div>
   );

@@ -3,8 +3,10 @@ import Navbar from "../../components/navbar/Navbar";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Widget from "../../components/widget/Widget";
 import "./Home.scss";
-import Chart from '../../components/chart/Chart'
-import Featured from '../../components/featured/Featured'
+import Chart from "../../components/chart/Chart";
+// import Table from '../../components/table/List'
+import Featured from "../../components/featured/Featured";
+import List from "../../components/table/List";
 
 const Home = () => {
 	return (
@@ -13,16 +15,20 @@ const Home = () => {
 			<div className="homeContainer">
 				<Navbar />
 				<div className="widgets">
-					<Widget type="user"/>
-					<Widget type="order"/>
-					<Widget type="earning"/>
-					<Widget type="balance"/>
+					<Widget type="user" />
+					<Widget type="order" />
+					<Widget type="earning" />
+					<Widget type="balance" />
 				</div>
-        <div className="charts">
-			
-			<Featured/>
-			<Chart/>
-        </div>
+				<div className="charts">
+					<Featured />
+					<Chart />
+				</div>
+				<div className="listContainer">
+					<div className="listTitle">
+						<List/>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
