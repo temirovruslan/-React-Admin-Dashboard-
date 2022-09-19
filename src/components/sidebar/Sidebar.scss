@@ -3,6 +3,8 @@
     flex: 1;
     border-right: 1px solid black;
     min-height: 100vh;
+    // background-color: ;
+    
 }
 .top{
 
@@ -15,7 +17,7 @@
     span{
         font-size: 20px;
         font-weight: bold;
-        color: chartreuse;
+        color: rgb(111, 111, 111);
 
     }
 }
@@ -34,21 +36,31 @@
 
         &:hover{
             border-radius:7px;
-            background-color: black;
+            background-color: #2a6592;
+            .sidebar-icon{
+                color:white;
+            }
+            span{
+                color:  white;
+            }
+            
             
         }
 
         .sidebar-icon{
             padding-right:5px;
-            font-size: 18px;
-            color:rgb(112, 133, 29)
+            font-size: 22px;
+            color:  #7e9a9a;
+            // &:hover{
+            //     color:  white;
+            // }
             
         }
 
         span{
             font-size: 13px;
             font-weight: bold;
-            color:rgb(120, 188, 77);
+            color:  #7e9a9a;
             margin-left: 10px;
     
         }
@@ -59,7 +71,7 @@
     
     font-size: 12px;
     font-weight: bold;
-    color:aqua;
+    color:#0a2133;
     margin-top: 15px;
     margin-bottom: 5px;
 }

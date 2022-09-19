@@ -24,8 +24,15 @@
     }
   
     .sidebar {
-      background-color: #111;
+      background-color: #2a6592;
       border-color: #333;
+      .sidebar-icon{
+        color:white;
+    }
+      span{
+        color:white;
+      }
+
   
       .top {
         .logo {
@@ -51,7 +58,7 @@
   
     .datatable {
       .datagrid {
-        color: rgb(128, 128, 128);
+        color: gray;
         border: none;
   
         .viewButton,
@@ -67,4 +74,5 @@
         background-color: transparent;
     }
   }
+  
   

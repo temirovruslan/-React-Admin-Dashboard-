@@ -21,9 +21,10 @@ const Sidebar = () => {
 	return (
 		<div className="sidebar">
 			<div className="top">
-				<Link to="/">
-					<span>TEMRU</span>
-				</Link>
+			<div className="bottom">
+				<div className="color-option"  onClick={() => dispatch({ type: "LIGHT" })}></div>
+				<div className="color-option" onClick={() => dispatch({ type: "DARK" })}></div>
+			</div>
 			</div>
 			<hr />
 			<div className="center">
@@ -31,68 +32,65 @@ const Sidebar = () => {
 					<p className="title">MAIN</p>
 					<li>
 						<DashboardIcon className="sidebar-icon" />
-						<span>Dashboard</span>
+						<span className="sidebar-text">Dashboard</span>
 					</li>
 					<p className="title">LIST</p>
 
 					<Link to="/users">
 						<li>
 							<AccountCircleOutlinedIcon className="sidebar-icon" />
-							<span>User</span>
+							<span className="sidebar-text">User</span>
 						</li>
 					</Link>
 					<Link to="/products">
 					<li>
 						<ProductionQuantityLimitsOutlinedIcon className="sidebar-icon" />
-						<span>Products</span>
+						<span className="sidebar-text">Products</span>
 					</li>
 					</Link>
 					
 					<li>
 						<ShoppingCartOutlinedIcon className="sidebar-icon" />
-						<span>Orders</span>
+						<span className="sidebar-text">Orders</span>
 					</li>
 					<li>
 						<OtherHousesOutlinedIcon className="sidebar-icon" />
-						<span>Status</span>
+						<span className="sidebar-text">Status</span>
 					</li>
 					<p className="title">USEFUL</p>
 					<li>
 						<NotificationsActiveOutlinedIcon className="sidebar-icon" />
-						<span>Notification</span>
+						<span className="sidebar-text">Notification</span>
 					</li>
 					<li>
 						<HealthAndSafetyOutlinedIcon className="sidebar-icon" />
-						<span>System Health</span>
+						<span className="sidebar-text">System Health</span>
 					</li>
 					<li>
 						<LocalShippingOutlinedIcon className="sidebar-icon" />
-						<span>Delivery</span>
+						<span className="sidebar-text">Delivery</span>
 					</li>
 					<p className="title">SERVICE</p>
 					<li>
 						<HubOutlinedIcon className="sidebar-icon" />
-						<span>Logs</span>
+						<span className="sidebar-text">Logs</span>
 					</li>
 					<li>
 						<SettingsOutlinedIcon className="sidebar-icon" />
-						<span>Settings</span>
+						<span className="sidebar-text">Settings</span>
 					</li>
 					<p className="title">PROFILE</p>
 					<li>
 						<InsertEmoticonOutlinedIcon className="sidebar-icon" />
-						<span>Profile</span>
+						<span className="sidebar-text">Profile</span>
 					</li>
 					<li>
 						<LoginOutlinedIcon className="sidebar-icon" />
-						<span>Log out</span>
+						<span className="sidebar-text">Log out</span>
 					</li>
 				</ul>
 			</div>
-			<div className="bottom">
-				<div className="color-option"  onClick={() => dispatch({ type: "LIGHT" })}></div>
-				<div className="color-option" onClick={() => dispatch({ type: "DARK" })}></div>
-			</div>
+			
 		</div>
 	);
 };
